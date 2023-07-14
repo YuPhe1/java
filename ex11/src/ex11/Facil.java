@@ -2,7 +2,7 @@ package ex11;
 
 import java.util.*;
 
-public class Facil { // 시설물관리 서브메뉴 
+public class Facil { // 시설물관리 서브메뉴
 	public static void run() {
 		Scanner s = new Scanner(System.in);
 		boolean run = true;
