@@ -12,7 +12,7 @@ public class Database {
 					"jdbc:oracle:thin:@localhost:1521:xe",
 					"java",
 					"pass");
-			//System.out.println("접속성공");
+			System.out.println("접속성공");
 		}catch(Exception e) {
 			System.out.println("DB연결:" + e.toString());
 		}

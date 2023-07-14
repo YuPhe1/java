@@ -12,9 +12,9 @@ public class Database {
 					"jdbc:oracle:thin:@localhost:1521:xe",
 					"java",
 					"pass");
-			//System.out.println("Ï†ëÏÜçÏÑ±Í≥µ");
+			System.out.println("?†ë?Üç?Ñ±Í≥?");
 		}catch(Exception e) {
-			System.out.println("DBÏó∞Í≤∞:" + e.toString());
+			System.out.println("DB?ó∞Í≤?:" + e.toString());
 		}
 		return con;
 	}
